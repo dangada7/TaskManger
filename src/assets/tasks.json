@@ -1,0 +1,63 @@
+[
+  {
+    "TaskID": 1,
+    "Title": "Task 01",
+    "StartDT": "01/01/2021",
+    "DueDT": "10/01/2021",
+    "EstimatedHours": 0,
+    "ActualHours": 0,
+    "ParentTaskID": 0,
+    "AssigneeUserIDs": ""
+  },
+
+  {
+    "TaskID": 2,
+    "Title": "Task 02",
+    "StartDT": "01/01/2021",
+    "DueDT": "05/01/2021",
+    "EstimatedHours": 15,
+    "ActualHours": 0,
+    "ParentTaskID": 1,
+    "AssigneeUserIDs": "1"
+  },
+  {
+    "TaskID": 3,
+    "Title": "Task 03",
+    "StartDT": "04/01/2021",
+    "DueDT": "06/01/2021",
+    "EstimatedHours": 50,
+    "ActualHours": 6,
+    "ParentTaskID": 1,
+    "AssigneeUserIDs": "2"
+  },
+  {
+    "TaskID": 4,
+    "Title": "Task 04",
+    "StartDT": "04/01/2021",
+    "DueDT": "07/01/2021",
+    "EstimatedHours": 10,
+    "ActualHours": 20,
+    "ParentTaskID": 1,
+    "AssigneeUserIDs": "2"
+  },
+  {
+    "TaskID": 5,
+    "Title": "Task 05",
+    "StartDT": "08/01/2021",
+    "DueDT": "12/01/2021",
+    "EstimatedHours": 0,
+    "ActualHours": 0,
+    "ParentTaskID": 0,
+    "AssigneeUserIDs": ""
+  },
+  {
+    "TaskID": 6,
+    "Title": "Task 06",
+    "StartDT": "09/01/2021",
+    "DueDT": "12/01/2021",
+    "EstimatedHours": 30,
+    "ActualHours": 10,
+    "ParentTaskID": 5,
+    "AssigneeUserIDs": "3,1"
+  }
+]
